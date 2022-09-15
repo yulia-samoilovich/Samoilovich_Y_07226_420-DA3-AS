@@ -11,6 +11,6 @@ namespace Samoilovich_Y_07226_420_DA3_AS.Models
         TModel Insert();
         TModel GetById();
         TModel Update();
-        TModel Delete();
+        void Delete();
     }
 }
