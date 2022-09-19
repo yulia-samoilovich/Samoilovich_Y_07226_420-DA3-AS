@@ -22,7 +22,7 @@ namespace Samoilovich_Y_07226_420_DA3_AS.Utils
         public static SqlConnection GetDefaultConnection()
         {
             string connectionStringLiteral = $"Server=.\\SQL2019EXPRESS; " +
-                $"Integrated_security=true; " +
+                $"Integrated security=true; " +
                 $"AttachDbFilename={DEFAULT_DB_FILE_PATH}; " +
                 $"User Instance=true;";
 
